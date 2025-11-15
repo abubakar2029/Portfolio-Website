@@ -1,26 +1,29 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+/* my custom styles */
+
+.card {
+  @apply text-[#656565] leading-6 p-5 text-sm;
+  /* @apply bg-[#F8F8F8]  text-[#656565] p-5 text-sm; */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.card-title {
+  @apply text-[#1A1A1A] font-bold text-lg mt-2.5 mb-4;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Dark mode variants */
+.dark .card {
+  @apply  text-white;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Shared icon size for site images and SVGs */
+.site-icon {
+  width: 1.5rem; /* 24px */
+  height: 1.5rem; /* 24px */
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
 }
+
