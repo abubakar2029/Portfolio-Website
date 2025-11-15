@@ -70,20 +70,21 @@ export default function Hackathons() {
 
                     {hackathonProjects.map((project, index) => (
                         <div key={index} className="card border border-slate-200 !bg-transparent p-6 rounded-lg ">
-                            <a href="#">
+                            <a href={project.link}>
                                 <img className="rounded-base" src={project.image} alt="" />
                             </a>
-                            <a href="#">
+                            {/* <a href="#"> */}
                                 <h5 className="mt-6 mb-2 text-base text-gray-900 font-medium">
                                     {project.name}
                                 </h5>
-                            </a>
+                            {/* </a> */}
                             <p className="mb-6">
                                 {project.summary}
                             </p>
                             <a
                                 href={project.link}
-                                className="inline-flex items-center text-body hover:-translate-y-0.5 transition duration-200 font-medium  rounded-md text-sm px-4 py-2.5 border border-slate-200"
+                                className=" inline-flex items-center text-sm  border transition duration-300 border-slate-300 px-4 py-2.5 rounded-md cursor-pointer hover:bg-slate-100
+                                "
                                 target="_blank"
                             >
                                 Submission link

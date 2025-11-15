@@ -8,14 +8,14 @@ import { Linkedin } from "lucide-react";
 // Data array
 const hackathonProjects = [
     {
-        name: "Raise Your Hack",
+        name: "Meta Hacker Cup",
         link: "https://www.youtube.com/embed/PaRx6nxlf6I",
         summary: "Delivered a webinar to UAF students on Meta Hacker Cup 🎯",
     },
     {
-        name: "English Test Preparation (Duolingo/IELTS)",
+        name: "English Test Preparation (Duolingo)",
         link: "https://www.youtube.com/embed/C8q3yMDMBr0",
-        summary: "",
+        summary: "Taught a workshoop and answered the questions of students related to Duolingo English Test preparation.",
     }
 ];
 
@@ -43,7 +43,7 @@ export default function Workshops() {
 
 
                     {hackathonProjects.map((project, index) => (
-                        <div key={index} className="card border border-slate-200 !bg-transparent p-6 rounded-lg ">
+                        <div key={index} className="card border border-slate-200 flex flex-col justify-between p-6 rounded-lg ">
                             <a href="#">
                                 <iframe
                                     className="rounded-base w-full h-48"
@@ -63,27 +63,11 @@ export default function Workshops() {
                             </p>
                             <a
                                 href={project.link}
-                                className="inline-flex items-center text-body hover:-translate-y-0.5 transition duration-200 font-medium  rounded-md text-sm px-4 py-2.5 border border-slate-200"
+                                className="max-w-40 whitespace-nowrap inline-flex items-center text-sm  border transition duration-300 border-slate-300 px-4 py-2 rounded-md cursor-pointer hover:bg-slate-100"
                                 target="_blank"
                             >
                                 Watch Recording
-                                <svg
-                                    className="w-4 h-4 ms-1.5 rtl:rotate-180 -me-0.5"
-                                    aria-hidden="true"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width={24}
-                                    height={24}
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <path
-                                        stroke="currentColor"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth={2}
-                                        d="M19 12H5m14 0-4 4m4-4-4-4"
-                                    />
-                                </svg>
+                                
                             </a>
                         </div>
 

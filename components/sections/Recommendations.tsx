@@ -67,7 +67,7 @@ export default function Example() {
 
 
                     {testimonials.map((testimonial, index) => (
-                        <div className="border border-slate-200 p-6 rounded-lg hover:-translate-y-1 hover:shadow-xl hover:border-transparent !bg-transparent transition duration-500 card">
+                        <div className="border border-slate-200 p-6 rounded-lg hover:-translate-y-1 hover:shadow-xl hover:border-transparent !bg-transparent transition duration-500 card" key={index}>
                             <p className=" text-slate-500 whitespace-pre-line
 ">{testimonial.quote}
                             </p>
