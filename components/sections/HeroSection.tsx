@@ -89,6 +89,11 @@ function HeroSection() {
                     </a>
                 </div>
                 <p>bakar.cs26@gmail.com</p>
+                <div className='flex flex-row flex-wrap gap-2 text-xs max-[1070px]:text-[10px]'>
+                    <p className='border-[1px] border-slate-300 px-2.5 rounded-2xl whitespace-nowrap py-2'>Full Stack Web Developer <span className='text-[10px]'>(1.5+ years)</span> </p>
+                    <p className='border-[1px] border-slate-300 px-2 rounded-2xl py-2'>machine learning</p>
+                    <p className='border-[1px] border-slate-300 px-2 rounded-2xl py-2'>RAG systems</p>
+                </div>
             </div>
 
             <div className="border relative flex flex-col justify-between border-slate-200 card rounded-lg ">
@@ -106,7 +111,7 @@ function HeroSection() {
                     <a href="https://certs.duolingo.com/0020ssg7bgbxfy7t" target='blank'>
                         <img src="/logos/det.jpeg" alt="Duolingo English Test 130 score (~IELTS 7.0)" className="max-[1070px]:h-8 h-10" />
                     </a>
-                    <a href="https://leetcode.com/u/AbuBakar_2029/" target='blank'>
+                    <a href="https://leetcode.com/u/muhammadabu/" target='blank'>
                         <img src="/logos/leetcode.png" alt="100 Days of Code Challenge" className="max-[1070px]:h-8 h-10" />
                     </a>
                     <a href="https://digitalcredential.stanford.edu/check/BF89152F6E34DEB3C62341BF6B7A9773FC0BEA3449762CBEC259077FEFC1F632SlVZOGEwTUI4MDdnZFh2Y3hwbHRMdmJnczg4U2g0K2hrUllxN0taclpuVC9PWXZE" target='blank'>

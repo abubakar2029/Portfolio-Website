@@ -17,32 +17,6 @@ Developed in a focused 18-hour weekend sprint.
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/abubakar2029/Portfolio-Website.git
-
-# Navigate to project directory
-cd portfolio_site
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-The site will be available at `http://localhost:3000`
-
----
-
 ## 📁 Project Structure
 
 ```

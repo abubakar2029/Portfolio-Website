@@ -56,7 +56,7 @@ export default function Hackathons() {
                     font-family: 'Poppins', sans-serif;
                 }
             `}</style>
-            <section className="flex flex-col items-start text-sm max-w-6xl mx-auto">
+            <section className="flex flex-col px-3.5 items-start text-sm max-w-6xl mx-auto">
 
                 <h1
                     className="card-title bg-clip-text mt-2.5 !mb-5">
