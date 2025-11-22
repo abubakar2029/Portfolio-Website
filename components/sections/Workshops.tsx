@@ -16,6 +16,11 @@ const hackathonProjects = [
         name: "English Test Preparation (Duolingo)",
         link: "https://www.youtube.com/embed/C8q3yMDMBr0",
         summary: "Taught a workshoop and answered the questions of students related to Duolingo English Test preparation.",
+    },
+    {
+        name: "Intuition to Development of RAG Systems",
+        link: "https://www.youtube.com/live/ORq31ZkkhE4?si=xGAfevsQhNDleVm7",
+        summary: "Conducted a workshop on building Retrieval-Augmented Generation (RAG) system and practical implementation by LangChain.",
     }
 ];
 
@@ -67,7 +72,7 @@ export default function Workshops() {
                                 target="_blank"
                             >
                                 Watch Recording
-                                
+
                             </a>
                         </div>
 
